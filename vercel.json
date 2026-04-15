@@ -1,0 +1,4 @@
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.pdf" }],
+  "headers": [{"source": "/index.pdf", "headers": [{"key": "Content-Type", "value": "text/html"}]}]
+}
